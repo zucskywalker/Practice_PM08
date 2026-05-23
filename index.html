@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moss Clever — прототип сайта</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#hero" aria-label="Moss Clever">
+        <span class="logo__mark">
+          <img src="src/icons8-клевер-96 (1).png">
+        </span>
+        <span class="logo__text">Moss Clever</span>
+      </a>
+
+      <div class="header__contacts">
+        <a class="phone" href="tel:+79133906166">+7 (913) 390-61-66</a>
+
+        <div class="socials">
+          <button class="socials__btn" type="button">Связаться</button>
+          <div class="socials__dropdown">
+            <a href="#" target="_blank" rel="noopener">Telegram</a>
+            <a href="#" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="#" target="_blank" rel="noopener">VK</a>
+            <a href="#" target="_blank" rel="noopener">Instagram*</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Первый экран -->
+    <section class="hero section" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="eyebrow">Дизайнерская студия пошива и вышивки</span>
+          <h1>Производство одежды для вашей компании от 3х дней</h1>
+          <p class="hero__lead">Мы создаем фирменную одежду, мерч и авторские коллекции с необычной вышивкой, фактурой и точной посадкой.</p>
+
+          <ul class="hero__list">
+            <li>Разработка дизайна и адаптация под бренд.</li>
+            <li>Подбор ткани, вышивки и фурнитуры.</li>
+            <li>Пошив малых и средних тиражей.</li>
+            <li>Контроль сроков и качества на всех этапах.</li>
+          </ul>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#calculator">Рассчитать стоимость</a>
+            <a class="btn btn--ghost" href="#calculator">Рассчитайте стоимость и получите бесплатный образец.</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <!-- Плейсхолдер для главного изображения -->
+          <div class="image-placeholder image-placeholder--hero">
+            <img src="src/0869af6fcdd253e09bf3221e5fd31c02.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Второй экран -->
+    <section class="section advantages">
+      <div class="container">
+        <h2>Почему к нам обращаются, когда нужно сделать качественно и в срок?</h2>
+
+        <div class="advantages__grid">
+          <article class="adv-card"><h3>Собственное производство</h3><p>Без посредников, быстрее и надежнее.</p></article>
+          <article class="adv-card"><h3>Гибкие тиражи</h3><p>Подходит для небольших и средних партий.</p></article>
+          <article class="adv-card"><h3>Образец до запуска</h3><p>Можно проверить изделие до основной партии.</p></article>
+          <article class="adv-card"><h3>Контроль качества</h3><p>Проверяем пошив, вышивку и посадку.</p></article>
+        </div>
+
+        <div class="section__action">
+          <a class="btn btn--primary" href="#portfolio">Посмотреть сложные работы</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Третий экран -->
+    <section class="section factory" id="factory">
+      <div class="container factory__grid">
+        <div class="factory__content">
+          <h2>Мы имеем собственное производство, о чем это говорит?</h2>
+          <p>Собственное трикотажное производство позволяет контролировать каждый этап: от выбора полотна до финальной проверки готового изделия. Это особенно важно для корпоративной одежды, где нужны стабильное качество, повторяемость размеров и точные сроки.</p>
+          <p>Вышивка и пошив выполняются под конкретную задачу клиента, поэтому можно быстро адаптировать модель, изменить детали, доработать посадку и изготовить образцы без лишних задержек.</p>
+        </div>
+
+        <div class="factory__images">
+          <!-- Плейсхолдеры для фотографий -->
+          <div class="image-placeholder">
+            <img src="src/hat1.png">
+          </div>
+          <div class="image-placeholder">
+            <img src="src/hat2.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Четвертый экран -->
+    <section class="section catalog" id="portfolio">
+      <div class="container">
+        <h2>Мы производим все виды трикотажных изделий</h2>
+
+        <div class="catalog__track">
+          <article class="product-card">
+            <div class="product-card__img image-placeholder">
+              <img src="src/image_4/hudi.jpg">
+            </div>
+            <h3>Худи с вышивкой</h3>
+            <p>от 3 900 ₽</p>
+            <div class="product-card__actions">
+              <a class="btn btn--primary btn--small" href="#calculator">Рассчитать стоимость</a>
+              <a class="btn btn--ghost btn--small" href="#">Подробнее</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img image-placeholder">
+              <img src="src/image_4/tshirt.jpg">
+            </div>
+            <h3>Футболка оверсайз</h3>
+            <p>от 1 800 ₽</p>
+            <div class="product-card__actions">
+              <a class="btn btn--primary btn--small" href="#calculator">Рассчитать стоимость</a>
+              <a class="btn btn--ghost btn--small" href="#">Подробнее</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img image-placeholder">
+              <img src="src/image_4/swift.jpg">
+            </div>
+            <h3>Свитшот</h3>
+            <p>от 3 200 ₽</p>
+            <div class="product-card__actions">
+              <a class="btn btn--primary btn--small" href="#calculator">Рассчитать стоимость</a>
+              <a class="btn btn--ghost btn--small" href="#">Подробнее</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card__img image-placeholder">
+              <img src="src/image_4/costume.jpg">
+            </div>
+            <h3>Костюм трикотажный</h3>
+            <p>от 6 800 ₽</p>
+            <div class="product-card__actions">
+              <a class="btn btn--primary btn--small" href="#calculator">Рассчитать стоимость</a>
+              <a class="btn btn--ghost btn--small" href="#">Подробнее</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Пятый экран -->
+    <section class="section steps" id="work">
+      <div class="container">
+        <h2>Как мы работаем</h2>
+        <div class="steps__grid">
+          <div class="step"><span>1</span><p>Вы оставляете заявку и описываете задачу.</p></div>
+          <div class="step"><span>2</span><p>Мы уточняем материал, тираж, сроки и пожелания.</p></div>
+          <div class="step"><span>3</span><p>Готовим расчет, эскиз и согласовываем образец.</p></div>
+          <div class="step"><span>4</span><p>Запускаем производство и контролируем результат.</p></div>
+          <div class="step"><span>5</span><p>Вы получаете готовый заказ и проверяете качество.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Шестой экран -->
+    <section class="section faq" id="faq">
+  <div class="container">
+    <h2>Отвечаем на частые вопросы</h2>
+    <div class="faq__grid">
+      <details open>
+        <summary>Какой минимальный тираж вы принимаете?</summary>
+        <p>Мы работаем с малыми и средними партиями. Для сложных изделий минимальный тираж обычно начинается от 20–30 единиц, а для простых позиций может быть ниже — это зависит от модели, ткани и сложности вышивки. Такой подход позволяет сохранять качество и не завышать цену на единицу продукции.</p>
+      </details>
+
+      <details>
+        <summary>Сколько времени занимает производство?</summary>
+        <p>Срок зависит от объема партии, наличия материалов и сложности изделия. В среднем запуск и изготовление простой партии могут занимать от 3 до 7 рабочих дней, а более сложные заказы — дольше, особенно если требуется разработка образца и согласование деталей.</p>
+      </details>
+
+      <details>
+        <summary>Можно ли заказать образец до основной партии?</summary>
+        <p>Да, это один из самых разумных этапов перед запуском тиража. Образец помогает проверить посадку, внешний вид, качество ткани, плотность швов и итоговый вид вышивки. Для нестандартной одежды и авторских решений это особенно важно.</p>
+      </details>
+
+      <details>
+        <summary>Вы работаете с индивидуальным дизайном?</summary>
+        <p>Да, мы можем адаптировать одежду под фирменный стиль компании, подготовить вышивку, изменить детали кроя и предложить вариант под задачу клиента. Это удобно, если нужен не просто стандартный пошив, а узнаваемый продукт для бренда, события или команды.</p>
+      </details>
+
+      <details>
+        <summary>Что влияет на цену изделия?</summary>
+        <p>На стоимость влияют сложность модели, тип ткани, объем партии, количество цветов в вышивке, наличие дополнительных элементов и необходимость изготовления образца. В небольших партиях цена обычно выше, чем в массовом производстве, потому что расходы на подготовку распределяются на меньшее число изделий.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+    <!-- Седьмой экран -->
+   <section class="section stats" id="stats">
+  <div class="container">
+    <h2>О нас в цифрах</h2>
+    <div class="stats__grid">
+      <div class="stat">
+        <strong>120+</strong>
+        <span>Выполненных заказов</span>
+      </div>
+      <div class="stat">
+        <strong>78%</strong>
+        <span>Клиентов возвращаются повторно</span>
+      </div>
+      <div class="stat">
+        <strong>3–7 дней</strong>
+        <span>Срок запуска простых партий</span>
+      </div>
+      <div class="stat">
+        <strong>20–50</strong>
+        <span>Изделий в комфортной малой партии</span>
+      </div>
+      <div class="stat">
+        <strong>1 образец</strong>
+        <span>Перед запуском основной партии</span>
+      </div>
+      <div class="stat">
+        <strong>100%</strong>
+        <span>Контроль качества на ключевых этапах</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer" id="calculator">
+      <div class="container footer__grid">
+        <div>
+          <a class="logo logo--footer" href="#hero">
+            <span class="logo__mark">MC</span>
+            <span class="logo__text">Moss Clever</span>
+          </a>
+          <p>Дизайнерская студия пошива и вышивки одежды с авторской подачей.</p>
+        </div>
+
+        <div>
+          <h3>Контакты</h3>
+          <a href="tel:+79133906166">+7 (913) 390-61-66</a>
+          <a href="mailto:zakasev048@gmail.com">zakasev048@gmail.com</a>
+          <a href="https://t.me/zucskywalker">@zucskywalker</a>
+        </div>
+
+        <div>
+          <h3>Соцсети</h3>
+          <a href="#">Telegram</a>
+          <a href="#">VK</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
