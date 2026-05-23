@@ -12,9 +12,12 @@ CОДЕРЖАНИЕ
 ЗАКЛЮЧЕНИЕ 1-2 стр
 СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ 20 штук( книги связанные с дизайном, с html/css)
 ПРИЛОЖЕНИЕ  А (– текст, который предоставлялся на лендинг)
-ПРИЛОЖЕНИЕ Б ( – ссылка на   git)
+ПРИЛОЖЕНИЕ Б ( – ссылка на git)
+**От 20 страниц без доков**
+
+Ссылка на ресурс куратора практики: https://disk.yandex.ru/d/kU4ShR4Qsuw4aQ
 
 Ссылка на фигму: https://www.figma.com/design/WzSMwa3ORhTamnReX1FDN9/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-7---%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5?node-id=0-1&t=NhVJ4bpPlboaQ2n4-1
-От 20 страниц без доков
+
 Ссылка на стандарт оформления,никакого двоеточия перед рисунком:
 https://nsuem.ru/education/oformlenie-pismennykh-studencheskikh-rabot-spo/0_%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%20%D0%A1%D0%9F%D0%9E.pdf.
